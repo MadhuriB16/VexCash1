@@ -1,0 +1,404 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:padding="3dp"
+            android:text="KREDITANTRAG - SCHRITT1"
+            android:textColor="#65E001"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:padding="3dp"
+            android:text="Kontaktdaten eingeben"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <android.support.v7.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="7dp"
+            android:layout_weight="1"
+            android:padding="8dp"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="10dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="5dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/ic_call" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center"
+                        android:padding="3dp"
+                        android:text="030850705570"
+                        android:textColor="#296CDB"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:gravity="center"
+                        android:text="Support-Hotline: Mo.-Fr. von 9-16 Uhr"
+                        android:textColor="#296CDB"
+                        android:textSize="14sp"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:padding="3dp"
+            android:text="Anrede"
+            android:textColor="#000000" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_margin="5dp"
+            android:background="@drawable/shape_border_white2"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tvMale"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                android:background="@drawable/shape_border_white2"
+                android:gravity="center"
+                android:padding="3dp"
+                android:text="HERR"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/tvFemale"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                android:background="@drawable/shape_border_white2"
+                android:gravity="center"
+                android:padding="3dp"
+                android:text="FRAU"
+                android:textColor="#000000" />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="5dp"
+            android:padding="3dp"
+            android:text="Geburtsdatum"
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/tvDate"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_margin="5dp"
+            android:gravity="center_vertical"
+            android:background="@drawable/shape_border_white3"
+            android:hint="02.05.1983"
+            android:drawableRight="@drawable/ic_cal"
+            android:padding="5dp"
+            android:textColor="#000000" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="5dp"
+            android:padding="3dp"
+            android:text="Vorname"
+            android:textColor="#000000" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_margin="5dp"
+            android:background="@drawable/shape_border_white3"
+            android:hint="Bitte alle Vornamen, wie im Personalausweis angegeben"
+            android:inputType="textCapSentences"
+            android:padding="5dp"
+            android:textColor="#000000" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="5dp"
+            android:padding="3dp"
+            android:text="Nachname"
+            android:textColor="#000000" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_margin="5dp"
+            android:background="@drawable/shape_border_white3"
+            android:inputType="textCapSentences"
+            android:padding="5dp"
+            android:textColor="#000000" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:orientation="horizontal"/>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="5dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:padding="3dp"
+                android:text="Straße"
+                android:textColor="#000000" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:padding="3dp"
+                android:text="Nummer"
+                android:textColor="#000000" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:orientation="horizontal">
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                android:background="@drawable/shape_border_white3"
+                android:inputType="numberDecimal"
+                android:padding="5dp"
+                android:textColor="#000000" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_weight="2"
+                android:background="@drawable/shape_border_white3"
+                android:inputType="numberDecimal"
+                android:padding="5dp"
+                android:textColor="#000000" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="5dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:padding="3dp"
+                android:text="Postleitzahl (PLZ)"
+                android:textColor="#000000" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:padding="3dp"
+                android:text="Wohnort"
+                android:textColor="#000000" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:orientation="horizontal">
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_weight="2"
+                android:background="@drawable/shape_border_white3"
+                android:inputType="numberDecimal"
+                android:padding="5dp"
+                android:textColor="#000000" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                android:background="@drawable/shape_border_white3"
+                android:inputType="textCapSentences"
+                android:padding="5dp"
+                android:textColor="#000000" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="5dp"
+            android:padding="3dp"
+            android:text="Mobiltelefon-Nummer"
+            android:textColor="#000000" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:orientation="horizontal">
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_weight="4.5"
+                android:background="@drawable/shape_border_white3"
+                android:hint="+49"
+                android:inputType="numberDecimal"
+                android:maxLength="3"
+                android:padding="5dp"
+                android:textColor="#000000" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                android:background="@drawable/shape_border_white3"
+                android:inputType="numberDecimal"
+                android:maxLength="12"
+                android:padding="5dp"
+                android:textColor="#000000" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="5dp"
+            android:padding="3dp"
+            android:text="E-Mail Adresse"
+            android:textColor="#000000" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_margin="5dp"
+            android:background="@drawable/shape_border_white3"
+            android:inputType="textEmailAddress"
+            android:padding="5dp"
+            android:textColor="#000000" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/shape_border_white4"
+            android:gravity="center_vertical"
+            android:padding="3dp"
+            android:text="Ich habe alle Hinweise gelesen und bin damit einverstanden."
+            android:textColor="#BB0202"
+            android:textStyle="bold" />
+
+        <CheckBox
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:text="Ich habe alle Hinweise gelesen und bin damit einverstanden." />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#A8A8A8"/>
+
+        <CheckBox
+            android:layout_width="match_parent"
+            android:layout_height="43dp"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:text="Hiermit bestätige ich, dass die o.g. Angaben zu meiner Person korrekt und wahrheitsgemäß sind." />
+
+        <CheckBox
+            android:layout_width="match_parent"
+            android:layout_height="73dp"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:text="Ich habe Datenschutzerklärung gelesen und stimme dieser mit dem Absenden dieses Kreditantrages zu. Dies bezieht sich auch auf Erhalt von Statusinformationen per E-Mail, SMS oder Anruf." />
+
+        <Button
+            android:id="@+id/btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="5dp"
+            android:background="@drawable/button_shape_green"
+            android:text="Zum nächsten Schritt"
+            android:textColor="#FFF" />
+
+    </LinearLayout>
+
+</ScrollView>

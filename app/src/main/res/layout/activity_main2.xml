@@ -1,0 +1,596 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context=".Main2Activity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:padding="3dp"
+            android:text="KREDITANTRAG - SCHRITT2"
+            android:textColor="#65E001"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:padding="3dp"
+            android:text="Pflichtangaben"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <android.support.v7.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="7dp"
+            android:layout_weight="1"
+            android:padding="8dp"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="10dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="5dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/ic_call" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center"
+                        android:padding="3dp"
+                        android:text="030850705570"
+                        android:textColor="#296CDB"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:gravity="center"
+                        android:text="Support-Hotline: Mo.-Fr. von 9-16 Uhr"
+                        android:textColor="#296CDB"
+                        android:textSize="14sp"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="7dp"
+            android:layout_weight="1"
+            android:padding="8dp"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="10dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:padding="3dp"
+                    android:text="Familienstand  "
+                    android:textColor="#000000" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:background="@drawable/shape_border_white2"
+                    android:orientation="vertical">
+
+                    <Spinner
+                        android:id="@+id/spin1"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp" />
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginRight="5dp"
+                    android:padding="3dp"
+                    android:text="Unterhaltspflichtige Kinder"
+                    android:textColor="#000000" />
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/shape_border_white3"
+                    android:inputType="numberDecimal"
+                    android:padding="5dp"
+                    android:textColor="#000000" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginRight="5dp"
+                    android:padding="3dp"
+                    android:text="Geburtsort"
+                    android:textColor="#000000" />
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/shape_border_white3"
+                    android:inputType="textCapSentences"
+                    android:padding="5dp"
+                    android:textColor="#000000" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:padding="3dp"
+                    android:text="Staatsbürgerschaft  "
+                    android:textColor="#000000" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:background="@drawable/shape_border_white2"
+                    android:orientation="vertical">
+
+                    <Spinner
+                        android:id="@+id/spin2"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp" />
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:padding="3dp"
+                    android:text="Beschäftigungsstatus  "
+                    android:textColor="#000000" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:background="@drawable/shape_border_white2"
+                    android:orientation="vertical">
+
+                    <Spinner
+                        android:id="@+id/spin3"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp" />
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginRight="5dp"
+                    android:padding="3dp"
+                    android:text="Kurzarbeit"
+                    android:textColor="#000000" />
+
+                <CheckBox
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_weight="1"
+                    android:text="Arbeiten Sie in Kurzarbeit?" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:padding="3dp"
+                    android:text="Branche  "
+                    android:textColor="#000000" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:background="@drawable/shape_border_white2"
+                    android:orientation="vertical">
+
+                    <Spinner
+                        android:id="@+id/spin4"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp" />
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginRight="5dp"
+                    android:padding="3dp"
+                    android:text="Beruf"
+                    android:textColor="#000000" />
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/shape_border_white3"
+                    android:inputType="textCapSentences"
+                    android:padding="5dp"
+                    android:textColor="#000000" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:orientation="horizontal"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginRight="5dp"
+                    android:padding="3dp"
+                    android:text="Monatliches Nettoeinkomme"
+                    android:textColor="#000000" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:orientation="horizontal">
+
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/shape_border_white3"
+                        android:inputType="numberDecimal"
+                        android:padding="5dp"
+                        android:textColor="#000000" />
+
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_weight="4.5"
+                        android:background="@drawable/shape_border_white3"
+                        android:hint="EUR"
+                        android:inputType="textCapSentences"
+                        android:padding="5dp"
+                        android:textColor="#000000" />
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:padding="3dp"
+                    android:text="Hinweis: Wir fragen Sie später noch einmal nach Ihrem Einkommensnachweis."
+                    android:textColor="#000000"
+                    android:textStyle="bold" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:orientation="horizontal"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:padding="3dp"
+                    android:text="Art des Ausweises"
+                    android:textColor="#000000" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/shape_border_white2"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/tv1"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/shape_border_white2"
+                        android:gravity="center"
+                        android:padding="3dp"
+                        android:text=" Personalausweis"
+                        android:textColor="#000000" />
+
+                    <TextView
+                        android:id="@+id/tv2"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/shape_border_white2"
+                        android:gravity="center"
+                        android:padding="3dp"
+                        android:text=" Reisepass"
+                        android:textColor="#000000" />
+
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginRight="5dp"
+                    android:padding="3dp"
+                    android:text="Ausstellende Behörde"
+                    android:textColor="#000000" />
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/shape_border_white3"
+                    android:hint="Ausstellende Behörde "
+                    android:inputType="textCapSentences"
+                    android:padding="5dp"
+                    android:textColor="#000000" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginRight="5dp"
+                    android:padding="3dp"
+                    android:text="Ausweisnummer"
+                    android:textColor="#000000" />
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/shape_border_white3"
+                    android:hint="Ausweisnummer"
+                    android:inputType="numberDecimal"
+                    android:padding="5dp"
+                    android:textColor="#000000" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginRight="5dp"
+                    android:padding="3dp"
+                    android:text="Ausstellungsdatum"
+                    android:textColor="#000000" />
+
+                <TextView
+                    android:id="@+id/tvDate1"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/shape_border_white3"
+                    android:gravity="center_vertical"
+                    android:hint="Ausstellungsdatum (TT.MM.JJJJ)"
+                    android:padding="5dp"
+                    android:textColor="#000000" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginRight="5dp"
+                    android:padding="3dp"
+                    android:text="Ablaufdatum"
+                    android:textColor="#000000" />
+
+                <TextView
+                    android:id="@+id/tvDate2"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/shape_border_white3"
+                    android:gravity="center_vertical"
+                    android:hint="Datumsformat (TT.MM.JJJJ)"
+                    android:padding="5dp"
+                    android:textColor="#000000" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:orientation="horizontal"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginRight="5dp"
+                    android:padding="3dp"
+                    android:text="Bankinstitut"
+                    android:textColor="#000000" />
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/shape_border_white3"
+                    android:inputType="textCapSentences"
+                    android:padding="5dp"
+                    android:textColor="#000000" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginRight="5dp"
+                    android:padding="3dp"
+                    android:text="IBAN"
+                    android:textColor="#000000" />
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/shape_border_white3"
+                    android:inputType="textCapSentences"
+                    android:padding="5dp"
+                    android:textColor="#000000" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginRight="5dp"
+                    android:padding="3dp"
+                    android:text="BIC"
+                    android:textColor="#000000" />
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/shape_border_white3"
+                    android:inputType="textCapSentences"
+                    android:padding="5dp"
+                    android:textColor="#000000" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginRight="5dp"
+                    android:padding="3dp"
+                    android:text="Gutscheincode"
+                    android:textColor="#000000" />
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/shape_border_white3"
+                    android:hint="Geben Sie hier Ihren Gutscheincode ein"
+                    android:inputType="textCapSentences"
+                    android:padding="5dp"
+                    android:textColor="#000000" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginRight="5dp"
+                    android:padding="3dp"
+                    android:text="Sie haben einen Gutscheincode? Dann geben Sie ihn hier ein."
+                    android:textColor="#000000" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="35dp"
+                    android:layout_marginRight="5dp"
+                    android:background="@drawable/shape_border_white4"
+                    android:gravity="center_vertical"
+                    android:padding="3dp"
+                    android:text="Sie müssen die nachfolgenden Hinweise bestätigen, um fortfahren zu können."
+                    android:textColor="#BB0202"
+                    android:textStyle="bold" />
+
+                <CheckBox
+                    android:layout_width="match_parent"
+                    android:layout_height="44dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_weight="1"
+                    android:text="Ich habe alle Hinweise gelesen und bin damit einverstanden." />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="#A8A8A8" />
+
+                <CheckBox
+                    android:layout_width="match_parent"
+                    android:layout_height="71dp"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:text="Ich habe die Klausel zur Wirtschaftsauskunft gelesen und stimme mit dem Absenden dieses Kreditantrages der Wirtschaftsauskunft zu." />
+
+                <CheckBox
+                    android:layout_width="match_parent"
+                    android:layout_height="63dp"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:text="Ich habe die AGB der Vexcash AG gelesen und stimme diesen mit dem Absenden dieses Kreditantrages zu." />
+
+                <Button
+                    android:id="@+id/btn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/button_shape_green"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:text="Zum nächsten Schritt"
+                    android:textColor="#FFF" />
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+    </LinearLayout>
+
+</ScrollView>

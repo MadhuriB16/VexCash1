@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context=".Main4Activity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="5dp"
+            android:padding="3dp"
+            android:text="KREDITANTRAG - SCHRITT4"
+            android:textColor="#65E001"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:padding="3dp"
+            android:text="Sie haben es fast geschafft! Sie müssen sich nur noch ausweisen und die Verträge unterzeichnen. Dazu bieten wir Ihnen zwei Möglichkeiten an. Wir empfehlen Ihnen den Schnellabschluss mit Videoident, welcher papierlos und vollständig online abläuft. Als Alternative können Sie den Standardabschluss mit Postident zu nutzen, welcher dementsprechend langsamer ist."
+            android:textColor="#000000"
+            android:textSize="16sp"/>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="7dp"
+            android:layout_weight="1"
+            android:padding="8dp"
+            app:cardBackgroundColor="#B9B8E5FF"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="10dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:padding="5dp"
+                android:background="#B9B8E5FF"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/ic_call" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center"
+                        android:padding="3dp"
+                        android:text="030850705570"
+                        android:textColor="#296CDB"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:gravity="center"
+                        android:text="Support-Hotline: Mo.-Fr. von 9-16 Uhr"
+                        android:textColor="#296CDB"
+                        android:textSize="14sp"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:orientation="vertical"
+            android:layout_margin="10dp"
+            android:background="@drawable/shape_border_white2">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:padding="3dp"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:drawableLeft="@drawable/ic_flash"
+                android:drawablePadding="15dp"
+                android:text="Schnellabschluss"
+                android:textColor="#000000"/>
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:padding="3dp"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:text="Standardabschluss"
+            android:textStyle="bold"
+            android:textSize="18sp"/>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="7dp"
+            android:layout_weight="1"
+            android:padding="8dp"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="10dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/ic_videocam"
+                    android:layout_gravity="top"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="1. Videoident"
+                        android:layout_margin="5dp"
+                        android:textColor="#000"
+                        android:textSize="18sp"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="\u2022 Abschließend bestätige Deine Identität und unterschreibe einen Vertrag per Videoanruf."
+                        android:layout_marginLeft="20dp"
+                        android:textColor="#000"
+                        android:textSize="16sp"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="\u2022 Bitte stelle sicher, dass Deine Internetverbindung stabil genug ist und Du über eine Webcam verfügst. Du benötigst zudem Deinen Ausweis."
+                        android:layout_marginLeft="20dp"
+                        android:textColor="#000"
+                        android:textSize="16sp"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="\u2022 Wir empfehlen, dies an einem ruhigen, privaten Ort zu tun."
+                        android:layout_marginLeft="20dp"
+                        android:textColor="#000"
+                        android:textSize="16sp"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="\u2022 Bitte rechne mit einer Wartezeit von 1-2 Minuten bis zum Aufbau der Verbindung zu einem Agenten."
+                        android:layout_marginLeft="20dp"
+                        android:textColor="#000"
+                        android:textSize="16sp"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="\u2022 Der komplette Vorgang dauert 5-10 Minuten."
+                        android:layout_marginLeft="20dp"
+                        android:textColor="#000"
+                        android:textSize="16sp"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="35dp"
+                        android:layout_marginRight="5dp"
+                        android:background="@drawable/shape_border_white4"
+                        android:gravity="center_vertical"
+                        android:padding="3dp"
+                        android:text="Sie müssen die AGB der WebID Solutions GmbH gelesen und verstanden haben, um fortfahren zu können."
+                        android:textColor="#BB0202"
+                        android:textStyle="bold" />
+
+                    <CheckBox
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_marginBottom="10dp"
+                        android:layout_weight="1"
+                        android:text="Hiermit bestätige ich, dass ich die AGB der WebID Solutions GmbH gelesen und verstanden habe." />
+
+                </LinearLayout>
+
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="5dp"
+            android:background="@drawable/button_shape_green"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="Zur WebID-Website"
+            android:textColor="#FFF" />
+
+        <android.support.v7.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="7dp"
+            android:layout_weight="1"
+            android:padding="8dp"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="10dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/ic_subscriptions"
+                    android:layout_gravity="top"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="2. Wir benötigten noch folgende Dokumente"
+                        android:layout_margin="5dp"
+                        android:textColor="#000"
+                        android:textSize="18sp"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="\u2022 Bitte laden Sie die nachfolgenden Dokumente so rasch wie möglich hoch, damit wir Ihren Antrag zeitnah bearbeiten können."
+                        android:layout_marginLeft="20dp"
+                        android:textColor="#000"
+                        android:textSize="16sp"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+    </LinearLayout>
+
+</ScrollView>
