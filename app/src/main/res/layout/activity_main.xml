@@ -59,15 +59,15 @@
                 <LinearLayout
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:orientation="vertical">
+                    android:orientation="vertical"
+                    android:gravity="center_vertical">
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="5dp"
-                        android:layout_marginTop="5dp"
                         android:gravity="center"
-                        android:padding="3dp"
+
                         android:text="030850705570"
                         android:textColor="#296CDB"
                         android:textSize="18sp"
@@ -77,6 +77,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="5dp"
+                        android:paddingRight="10dp"
                         android:gravity="center"
                         android:text="Support-Hotline: Mo.-Fr. von 9-16 Uhr"
                         android:textColor="#296CDB"
@@ -352,13 +353,13 @@
 
         <TextView
             android:layout_width="match_parent"
-            android:layout_height="40dp"
+            android:layout_height="wrap_content"
             android:layout_marginLeft="5dp"
             android:layout_marginTop="5dp"
             android:layout_marginRight="5dp"
             android:background="@drawable/shape_border_white4"
             android:gravity="center_vertical"
-            android:padding="3dp"
+            android:padding="5dp"
             android:text="Ich habe alle Hinweise gelesen und bin damit einverstanden."
             android:textColor="#BB0202"
             android:textStyle="bold" />
@@ -395,6 +396,7 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:layout_margin="5dp"
+            android:padding="10dp"
             android:background="@drawable/button_shape_green"
             android:text="Zum nächsten Schritt"
             android:textColor="#FFF" />

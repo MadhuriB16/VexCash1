@@ -37,14 +37,13 @@
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="40dp"
-            android:layout_marginTop="20dp"
+            android:layout_height="wrap_content"
             android:orientation="horizontal">
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="5dp"
+                android:layout_margin="5dp"
                 android:padding="3dp"
                 android:text="Gerne können wir Ihnen einen Kurzzeitkredit von bis zu 3000 EUR anbieten "
                 android:textColor="#000000"
@@ -88,9 +87,9 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="5dp"
-                        android:layout_marginTop="5dp"
+
                         android:gravity="center"
-                        android:padding="3dp"
+
                         android:text="030850705570"
                         android:textColor="#296CDB"
                         android:textSize="18sp"
@@ -100,6 +99,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="5dp"
+                        android:paddingRight="10dp"
                         android:gravity="center"
                         android:text="Support-Hotline: Mo.-Fr. von 9-16 Uhr"
                         android:textColor="#296CDB"
@@ -197,7 +197,7 @@
 
             <android.support.v7.widget.CardView
                 android:layout_width="match_parent"
-                android:layout_height="210dp"
+                android:layout_height="230dp"
                 android:layout_gravity="center"
                 android:layout_margin="5dp"
                 android:layout_weight="1"
@@ -260,7 +260,7 @@
 
                     <CheckBox
                         android:layout_width="wrap_content"
-                        android:layout_height="34dp"
+                        android:layout_height="wrap_content"
                         android:layout_gravity="center"
                         android:layout_margin="3dp"
                         android:text="Ihr Kredit \n wird bevorzugt \n bearbeitet"
@@ -272,7 +272,7 @@
 
             <android.support.v7.widget.CardView
                 android:layout_width="match_parent"
-                android:layout_height="210dp"
+                android:layout_height="230dp"
                 android:layout_gravity="center"
                 android:layout_margin="5dp"
                 android:layout_weight="1"
@@ -691,11 +691,11 @@
 
         <TextView
             android:layout_width="match_parent"
-            android:layout_height="40dp"
+            android:layout_height="wrap_content"
             android:layout_margin="5dp"
             android:background="@drawable/shape_border_white4"
             android:gravity="center_vertical"
-            android:padding="3dp"
+            android:padding="5dp"
             android:text="Sie müssen die nachfolgenden Hinweise bestätigen, um fortfahren zu können."
             android:textColor="#BB0202"
             android:textStyle="bold" />
@@ -764,6 +764,7 @@
             android:layout_width="match_parent"
             android:layout_height="73dp"
             android:layout_marginBottom="15dp"
+            android:layout_marginLeft="5dp"
             android:layout_weight="1"
             android:text="Ich habe die AGB und die Allgemeinen Bedingungen für Kredite und Darlehen der net-m privatbank 1891 AG erhalten und gelesen und stimme diesen mit dem Absenden dieses Kreditantrages zu." />
 

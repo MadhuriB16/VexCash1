@@ -69,9 +69,9 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="5dp"
-                        android:layout_marginTop="5dp"
+
                         android:gravity="center"
-                        android:padding="3dp"
+
                         android:text="030850705570"
                         android:textColor="#296CDB"
                         android:textSize="18sp"
@@ -81,6 +81,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="5dp"
+                        android:paddingRight="10dp"
                         android:gravity="center"
                         android:text="Support-Hotline: Mo.-Fr. von 9-16 Uhr"
                         android:textColor="#296CDB"
@@ -191,20 +192,20 @@
 
                     <TextView
                         android:layout_width="match_parent"
-                        android:layout_height="40dp"
+                        android:layout_height="wrap_content"
                         android:layout_marginLeft="5dp"
-                        android:layout_marginTop="35dp"
+                        android:layout_marginTop="20dp"
                         android:layout_marginRight="5dp"
                         android:background="@drawable/shape_border_white4"
                         android:gravity="center_vertical"
-                        android:padding="3dp"
+                        android:padding="5dp"
                         android:text="Sie müssen die AGB der WebID Solutions GmbH gelesen und verstanden haben, um fortfahren zu können."
                         android:textColor="#BB0202"
                         android:textStyle="bold" />
 
                     <CheckBox
                         android:layout_width="match_parent"
-                        android:layout_height="40dp"
+                        android:layout_height="wrap_content"
                         android:layout_marginLeft="5dp"
                         android:layout_marginTop="10dp"
                         android:layout_marginRight="5dp"
